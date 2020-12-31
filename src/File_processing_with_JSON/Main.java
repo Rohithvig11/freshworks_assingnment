@@ -40,8 +40,8 @@ public class Main {
 //		code for getting user input .....
 
 //      System.out.println("Enter the no of users to store");
-//		n=scan.nextInt(); // no of users
-//		for(i=0;i<n;i++)
+//		no=scan.nextInt(); // no of users
+//		for(i=0;i<no;i++)
 //		{
 //			scan.nextLine();
 //			System.out.println("Enter the Key:");
@@ -63,8 +63,9 @@ public class Main {
 //			System.out.println("If you want to specify TTL give the value in seconds else give -1");
 //			ttl=scan.nextInt();
 //			json.put("name", name);
-//			json.put("gender", gender);
-//			json.put("age", age);
+//			json.put("regno", regno);
+//			json.put("dept", dept);
+//			json.put("year",year);
 //			store.createfn(key, json_value,ttl);
 //			json.clear();
 //			}
