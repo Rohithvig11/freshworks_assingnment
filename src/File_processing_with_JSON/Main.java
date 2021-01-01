@@ -19,8 +19,9 @@ public class Main {
 		int ttl;
 		System.out.println("Enter Filepath else specify NA:");
 		filepath=scan.nextLine();
+		String s=System.getProperty("user.dir");
 		if(filepath.equals("NA"))
-		filepath="C:\\Java\\defaultpath\\data";
+		filepath=s+"\\data";
 		else
 		filepath=filepath+"\\data";
 		CRDprocessing store=new CRDprocessing(filepath);
